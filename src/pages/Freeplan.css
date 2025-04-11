@@ -1,0 +1,75 @@
+/* Add this to your CSS file */
+.workout-plan {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .workout-plan h1 {
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .plan-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .day-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .day-card h2 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  
+  .day-card h3 {
+    color: #e74c3c;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .day-card .duration {
+    color: #7f8c8d;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .day-card ul {
+    padding-left: 20px;
+  }
+  
+  .day-card li {
+    color: #34495e;
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .day-card {
+      background: #2c3e50;
+    }
+    
+    .day-card h2,
+    .day-card li {
+      color: #141515;
+    }
+    
+    .day-card h3 {
+      color: #f39c12;
+    }
+    
+    .day-card .duration {
+      color: #bdc3c7;
+    }
+  }

@@ -1,0 +1,53 @@
+.about-container {
+  background-image: url('Heavy-Lifting.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: creates parallax effect */
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 900px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Rest of your existing styles */
+h1 {
+  color: #ff6b6b;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ff6b6b;
+  margin-top: 25px;
+  font-size: 1.8em;
+}
+
+p, li {
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #ff6b6b;
+  padding-left: 15px;
+  margin: 20px 0;
+}
+
+blockquote p {
+  color: #ffffff;
+  margin-top: 10px;
+  font-style: normal;
+  font-size: 0.9em;
+}
+
