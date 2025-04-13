@@ -25,9 +25,10 @@ const styles = {
   };
 
   return (
+    <div className="about-container2">
     <div className="signup-container">
       <div className="signup-box">
-        <h1 className="logo">ARISE</h1>
+        <h1 className="logo">Create an Account</h1>
         
         <form onSubmit={handleSubmit}>
           <input
@@ -64,6 +65,6 @@ const styles = {
       <div className="login-redirect">
         Have an account? <Link to="/register">Log in</Link>
       </div>
-    </div>
+    </div></div>
   );
 }

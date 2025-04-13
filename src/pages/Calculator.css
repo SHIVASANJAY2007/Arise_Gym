@@ -1,0 +1,82 @@
+.about-container {
+  background-image: url('aaa.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: creates parallax effect */
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  color:#ccc;
+}
+
+.input-section input, 
+.input-section select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.goal-toggle {
+  display: flex;
+  gap: 10px;
+}
+
+.goal-toggle button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #f5f5f5;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+
+}
+
+.goal-toggle button.active {
+  background: #007bff;
+  color: rgb(0, 0, 0);
+  border-color: #007bff;
+}
+
+.calculate-btn {
+  background: #28a745;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.results-section {
+  background: #ff2969;
+  padding: 15px;
+  border-radius: 8px;
+  color: black; /* Force black text */
+  padding-top: 6px;
+  padding-bottom: 20px;
+  padding-left: 45px;
+  padding-right: 20px;
+}
+
+.results-section h2,
+.results-section h3,
+.results-section p,
+.results-section li {
+  color: black; /* Explicitly set to black */
+}

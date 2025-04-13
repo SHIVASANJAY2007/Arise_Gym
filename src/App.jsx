@@ -7,6 +7,7 @@ import Contact from './pages/Contact'
 import Registration from './pages/Registration'
 import './index.css'
 import Signup from './pages/Signup'
+import BulkCutCalculator from './pages/Calculator'
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Registration />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/calculator" element={<BulkCutCalculator/>} />
       </Routes>
       <Footer />
     </Router>

@@ -1,22 +1,37 @@
-/* Signup.css */
+.about-container2 {
+  background-image: url('bbb.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: creates parallax effect */
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .signup-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #fafafa;
+    opacity: 0.85;
     padding: 20px;
   }
   
   .signup-box {
-    background: white;
-    border: 1px solid #dbdbdb;
     width: 100%;
     max-width: 350px;
-    padding: 20px 40px;
-    text-align: center;
+    padding: 14px 40px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
     margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 33px;
+    margin-right: 33px;
+    text-align: center;
   }
   
   .logo {

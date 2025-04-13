@@ -9,8 +9,10 @@ export default function Navbar() {
         <li className='li1'><Link to="/">Home</Link></li>
         <li><Link to="/about">About Us</Link></li>
         <li><Link to="/contact">Free Plan</Link></li>
+        <li><Link to="/calculator">Calculator</Link></li>
         <li><Link to="/signup">Signup</Link></li>
         <li><Link to="/register">Login</Link></li>
+        
       </ul>
     </nav>
   )
